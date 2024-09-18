@@ -1,7 +1,6 @@
 public class Ejercicio31 {
     public static void main(String[] args) {
         int[] a = { 3, 6, 7, 9, 2, 4 };
-        int[] b = new int[10];
         System.out.println(sumaDeElementosEnPosPares(a));
     }
 
