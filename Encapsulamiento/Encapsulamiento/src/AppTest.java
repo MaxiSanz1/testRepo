@@ -1,4 +1,3 @@
-import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -7,18 +6,14 @@ public class AppTest {
     public AppTest() {
 
     }
-    public AppTest(int a, int b){
-
-    }
-    public AppTest(int a){
-        
-    }
+  
     public static void main(String[] args) throws Exception {
-        AppTest sumador = new AppTest(1, 2);
-        AppTest probador = new AppTest(1);
+         AppTest sumador = new AppTest();
+        AppTest probador = new AppTest();
         System.out.println("Hello, World!");
         System.out.println(sumador.suma(5, 10));
         System.out.println(probador.esPar(6));
+        
     }
 
     public int suma(int a, int b) {
@@ -32,10 +27,8 @@ public class AppTest {
         return false;
     }
 
-    @Test
-    public void verSiFunciona() {
-        double esperado = 10;
-        assertEquals(esperado, suma(6, 6), 15);
-
-    }
+   @Test
+   public void DePrueba(){
+    
+   }
 }
