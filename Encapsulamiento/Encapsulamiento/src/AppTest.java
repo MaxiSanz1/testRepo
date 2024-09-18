@@ -7,10 +7,10 @@ public class AppTest {
     public AppTest() {
 
     }
-    public AppTest(int a){
+    public AppTest(int a, int b){
 
     }
-    public AppTest(int a, int b){
+    public AppTest(int a){
         
     }
     public static void main(String[] args) throws Exception {
