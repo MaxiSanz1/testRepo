@@ -1,3 +1,5 @@
+package Repaso;
+
 import org.junit.jupiter.api.Test;
 
 public class AppTestTest {
