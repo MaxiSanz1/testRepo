@@ -1,7 +1,5 @@
 package Repaso;
 
-import org.junit.Test;
-
 public class AppTest {
 
     public AppTest() {
